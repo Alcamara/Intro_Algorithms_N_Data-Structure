@@ -37,8 +37,14 @@ function linearSearch(array, key){
     return -1;
 }
 
+let arr = []
+
+for(let i = 0; i<= 100; i++){
+    arr.push(i);
+}
+
 
 
 //   console.log(linearSearch([1,2,3,4,5,6,7,8,9,10], 5));
   
-  console.log(binarySearch([1,2,3,4,5,6,7,8,9,10],10));
+  console.log(binarySearch(arr,100));
